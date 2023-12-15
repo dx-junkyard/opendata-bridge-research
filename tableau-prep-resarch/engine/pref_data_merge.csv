@@ -1,0 +1,48 @@
+団体コード,団体名,powered_by,パッケージリストのURI,PDFサンプルデータURI,サイトのURL,備考
+10006,北海道,Shirasagi,https://www.harp.lg.jp/opendata/api/package_list,https://www.harp.lg.jp/opendata/dataset/1873/resource/5338/%E3%80%90%E6%A0%B9%E5%AE%A4%E5%B8%82%E3%80%91%E8%87%AA%E5%8B%95%E8%BB%8A%E5%AD%A6%E6%A0%A1%E6%95%B7%E5%9C%B0%EF%BC%88%E5%B1%8B%E5%A4%96%E3%83%BB%E5%B1%8B%E5%86%85%E7%B7%B4%E7%BF%92%E5%A0%B4%EF%BC%89.pdf,https://www.harp.lg.jp/opendata/,説明なし
+20001,青森県,Shirasagi,https://opendata.pref.aomori.lg.jp/api/package_list,https://opendata.pref.aomori.lg.jp/dataset/2059/resource/24945/%E8%B3%87%E6%96%99-2022%E5%B9%B4%E5%BA%A6%EF%BC%88%E4%BB%A4%E5%92%8C4%E5%B9%B4%E5%BA%A6%EF%BC%89.pdf,https://opendata.pref.aomori.lg.jp/,
+30007,岩手県,CGI,https://www.pref.iwate.jp/cgi-opd/opendata.cgi?category=0&ys=0&ms=0&ds=0&ye=0&me=0&de=0&text=&format=0&license=0&group=0&sort=2#kekka,https://www.pref.iwate.jp/_res/projects/default_project/_page_/001/067/285/nintei_20231101.pdf,https://www.pref.iwate.jp/opendata/index.html,
+40002,宮城県,data eye,https://miyagi.dataeye.jp/ckan_api/package_list,https://www.pref.miyagi.jp/documents/27775/20231101_suikei.pdf,https://miyagi.dataeye.jp/,CKAN互換
+50008,秋田県,CKAN,https://ckan.pref.akita.lg.jp/api/3/action/package_list,,https://opendata.pref.akita.lg.jp/,
+60003,山形県,CMS,,,http://www.pref.yamagata.jp/ou/kikakushinko/020051/opendata.html,
+70009,福島県,CMS,,https://www.pref.fukushima.lg.jp/uploaded/attachment/594794.pdf,https://www.pref.fukushima.lg.jp/sec/11045a/open-data-top.html,
+80004,茨城県,CMS,,https://www.pref.ibaraki.jp/hokenfukushi/jinzai/ikusei/isei/div/nurse/base/documents/r2syuugyoujyoukyou.pdf,http://www.pref.ibaraki.jp/kikaku/joho/it/opendata/od-00.html,
+90000,栃木県,BODIK,https://data.bodik.jp/api/3/action/package_search?q=organization:090000,,https://odcs.bodik.jp/090000/,
+100005,群馬県,CMS,,https://www.pref.gunma.jp/uploaded/attachment/149969.pdf,https://www.pref.gunma.jp/07/b2700057.html,
+110001,埼玉県,CKAN,https://opendata.pref.saitama.lg.jp/data/api/3/action/package_list,,https://opendata.pref.saitama.lg.jp/,県内自治体分
+120006,千葉県,CMS,,https://www.pref.chiba.lg.jp/haishi/saisei-jigyousha/documents/saisei20210331.pdf,https://www.pref.chiba.lg.jp/gyoukaku/opendata/index.html,
+130001,東京都,CKAN,https://catalog.data.metro.tokyo.lg.jp/api/3/action/package_list,,http://opendata-portal.metro.tokyo.jp/www/index.html,都内自治体分
+140007,神奈川県,CMS,,https://www.pref.kanagawa.jp/documents/49996/01iryoushitei20231127.pdf,http://www.pref.kanagawa.jp/cnt/f534212/,
+150002,新潟県,CMS,,https://www.pref.niigata.lg.jp/uploaded/attachment/382159.pdf,https://www.pref.niigata.lg.jp/site/opendata/,
+160008,富山県,CKAN,https://opendata.pref.toyama.jp/api/3/action/package_list,https://www.pref.toyama.jp/documents/7293/hikitori_r5_4_3.pdf,http://opendata.pref.toyama.jp/,
+170003,石川県,CMS,,https://www.pref.ishikawa.lg.jp/opendata/documents/kyouryokusisetuitiranr40221.pdf,https://www.pref.ishikawa.lg.jp/opendata/,
+180009,福井県,CMS,,,http://www.pref.fukui.lg.jp/doc/toukei-jouhou/opendata/,
+190004,山梨県,CMS,,https://www.pref.yamanashi.jp/documents/4146/r5kyouikutoukei_01.pdf,https://www.pref.yamanashi.jp/opendata/,
+200000,長野県,CMS,,,https://wwwgis.pref.nagano.lg.jp/pref-nagano/OpenData,
+210005,岐阜県,CKAN,https://gifu-opendata.pref.gifu.lg.jp/api/3/action/package_list,,https://gifu-opendata.pref.gifu.lg.jp/,
+220001,静岡県,CKAN,https://ckan.pref.shizuoka.jp/api/3/action/package_list,,https://opendata.pref.shizuoka.jp/,
+230006,愛知県,CMS,,,https://www.pref.aichi.jp/life/7/,
+240001,三重県,BODIK,https://data.bodik.jp/api/3/action/package_search?q=organization:240001,https://data.bodik.jp/dataset/d3e43116-00c4-4541-bb70-3106e186d4a7/resource/d6231c5a-763a-43f8-be6a-6a48d2ac57cd/download/ninkagai_hoikushisetsu.pdf,https://odcs.bodik.jp/240001/,
+250007,滋賀県,CMS,,https://www.pref.shiga.lg.jp/file/attachment/5114323.pdf,https://www.pref.shiga.lg.jp/ippan/kurashi/ict/300004.html,
+260002,京都府,BODIK,https://data.bodik.jp/api/3/action/package_search?q=organization:260002,http://www.library.pref.kyoto.jp/contents/wp-content/uploads/2021/06/297cc2c978128cb432c3fb7e0ea06e3f.pdf,https://odcs.bodik.jp/260002/,
+270008,大阪府,BODIK,https://data.bodik.jp/api/3/action/package_search?q=organization:270008,,https://odcs.bodik.jp/270008/,
+280003,兵庫県,CMS,,https://web.pref.hyogo.lg.jp/kf14/documents/000028_hotel_all.pdf,https://web.pref.hyogo.lg.jp/opendata/index.php,
+290009,奈良県,CMS,,https://www.pref.nara.jp/secure/229064/sisetsu%EF%BC%88R2.4.1%EF%BC%89.pdf,http://www.pref.nara.jp/44954.htm,
+300004,和歌山県,BODIK,https://data.bodik.jp/api/3/action/package_search?q=organization:300004,https://www.pref.wakayama.lg.jp/prefg/032100/waterlist_d/fil/list.pdf,https://odcs.bodik.jp/300004/,
+310000,鳥取県,CKAN,https://odp-pref-tottori.tori-info.co.jp/api/package_list/,https://odp-pref-tottori.tori-info.co.jp/dataset/1617/resource/9240/%E7%89%B9%E5%88%A5%E4%BA%A4%E4%BB%98%E7%A8%8E%EF%BC%88H27%EF%BC%89.pdf,https://odp-pref-tottori.tori-info.co.jp/,県内自治体分
+320005,島根県,data eye,https://shimane-opendata.jp/ckan_api/package_list,,https://shimane-opendata.jp/,CKAN互換
+330001,岡山県,data eye,https://www.okayama-opendata.jp/ckan_api/package_list,,http://www.okayama-opendata.jp/,CKAN互換
+340006,広島県,data eye,https://hiroshima-opendata.dataeye.jp/ckan_api/package_list,,https://hiroshima-opendata.dataeye.jp/,CKAN互換
+350001,山口県,CKAN,https://yamaguchi-opendata.jp/ckan/api/3/action/package_list,https://yamaguchi-opendata.jp/ckan/dataset/7fde24d5-af38-4459-b055-60a147dd79ab/resource/b145abb1-404d-4a4a-bab7-c4ee1b021ab0/download/teijiheikinkagau.pdf,https://yamaguchi-opendata.jp/www/,県内自治体分
+360007,徳島県,CKAN,https://opendata.pref.tokushima.lg.jp/api/package_list,https://opendata.pref.tokushima.lg.jp/dataset/1721/resource/14082/%E8%A1%8C%E5%8B%95%E6%8F%B4%E8%AD%B7%E5%BE%93%E6%A5%AD%E8%80%85%E9%A4%8A%E6%88%90%E7%A0%94%E4%BF%AE%E6%8C%87%E5%AE%9A%E4%BA%8B%E6%A5%AD%E8%80%85%E4%B8%80%E8%A6%A7.pdf,https://opendata.pref.tokushima.lg.jp/,
+370002,香川県,CKAN,,,https://opendata.pref.kagawa.lg.jp/,API未実装？
+380008,愛媛県,CKAN,https://www.pref.ehime.jp/opendata-catalog/api/package_list,https://www.pref.ehime.jp/opendata-catalog/dataset/2390/resource/12191/01.38_%E6%A8%99%E6%BA%96%E9%9B%86%E8%A8%88%E8%A1%A8%EF%BC%88%E8%A1%A81%EF%BD%9E%E8%A1%A811%EF%BC%892019%E5%B9%B4%E7%BD%B9%E6%82%A3%E9%9B%86%E8%A8%88.pdf,https://www.pref.ehime.jp/opendata-catalog/,
+390003,高知県,CMS,,,http://www.pref.kochi.lg.jp/opendata/,
+400009,福岡県,CKAN,https://ckan.open-governmentdata.org//api/3/action/package_search?q=organization:fukuoka-pref,https://ckan.open-governmentdata.org/dataset/132e28e0-17fa-42fb-87ee-0e06092ee6a7/resource/cdf55a04-f0e9-4c51-87fc-0730bb9cc766/download/5.pdf,https://www.open-governmentdata.org/fukuoka-pref/,
+410004,佐賀県,BODIK,https://data.bodik.jp/api/3/action/package_search?q=organization:410004,https://data.bodik.jp/dataset/53845ca0-b457-470d-a6bb-0f30410b95ef/resource/315c2bd1-e51a-4c65-b6c4-95c591f29144/download/446_.pdf,http://odcs.bodik.jp/410004/,
+420000,長崎県,BODIK,https://data.bodik.jp/api/3/action/package_search?q=organization:420000,https://data.bodik.jp/dataset/ef822df7-5a3f-468a-b86a-313147b617e3/resource/97d3800f-d13e-48f0-80da-6a8dc8b3a5cd/download/r4_anzenuntenkanrisha_senninjigyousho.pdf,http://odcs.bodik.jp/420000/,
+430005,熊本県,BODIK,https://data.bodik.jp/api/3/action/package_search?q=organization:430005,https://data.bodik.jp/dataset/3313ed4a-8e3e-4e5e-9294-f73b058e001a/resource/508468e4-8f4d-44ef-9b87-312ba7467c2c/download/230308__04.4.1.pdf,https://odcs.bodik.jp/430005/,
+440001,大分県,BODIK,https://data.bodik.jp/api/3/action/package_search?q=organization:440001,https://data.bodik.jp/dataset/48b0b029-454a-495d-99d7-4a9515d74ce5/resource/865c59db-43bd-422b-94bb-a604b0b76aa1/download/1-4.pdf,https://odcs.bodik.jp/440001/,
+450006,宮崎県,BODIK,https://data.bodik.jp/api/3/action/package_search?q=organization:450006,,https://odcs.bodik.jp/450006/,
+460001,鹿児島県,BODIK,https://data.bodik.jp/api/3/action/package_search?q=organization:460001,https://data.bodik.jp/dataset/be7c3723-9d67-4f90-a86a-0594c55c15b5/resource/d38d3ac3-842a-4c51-a7ec-e2ccdfbb43aa/download/nikyukasen.pdf,https://odcs.bodik.jp/460001/,
+470007,沖縄県,BODIK,https://data.bodik.jp/api/3/action/package_search?q=organization:470007,,https://odcs.bodik.jp/470007/,
