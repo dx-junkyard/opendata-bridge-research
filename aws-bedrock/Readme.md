@@ -35,3 +35,4 @@
 | TopK | 250 | 250 |  |
 | Maximum length | 1000 | 1000 |  |
 | Response length |  |  | 1000 |
+| Output | [Claude v1.2](output/Claude%20v1.2.txt) | [Claude2 v1.2](output/Claude2%20v1.2.txt) | [Llama 2 Chat 70B](output/Llama%202%20Chat%2070B.txt) |
