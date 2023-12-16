@@ -22,7 +22,7 @@
 
 - **その他**:
   - サンプル数と試したモデルの種類が少ないですが、Claude2が一番出力精度が良いと思いました。
-  - ChatGPTのようなUI（会話履歴が残るタイプ）が簡単に作成できました。実行イメージや関連情報を共有します。  
+  - ChatGPTのようなUI（会話履歴が残るタイプ）が簡単に作成できました。[実行イメージ](output/chat_image.png)や関連情報を共有します。  
     **参考資料1**: [Amazon Bedrock を利用して生成 AI でなにができるのか？を体験できる AWS のワークショップをやってみた](https://dev.classmethod.jp/articles/experiencing-generative-ai-with-amazon-bedrock-workshop/)  
     **参考資料2**: [生成系 AI 体験ワークショップ](https://catalog.workshops.aws/generative-ai-use-cases-jp/ja-JP)
 
