@@ -14,7 +14,7 @@
   - DataNormのGitHubにあった[プロンプト](https://github.com/dx-junkyard/OpenData-Bridge-DataNorm#chatgpt%E7%94%A8%E3%83%97%E3%83%AD%E3%83%B3%E3%83%97%E3%83%88%E3%83%86%E3%83%B3%E3%83%97%E3%83%AC%E3%83%BC%E3%83%88)を使用してみました。
 
 - **使用可能なモデル**:
-  - [東京リージョンでは3モデル](aws-bedrock/screenshots/Model_access_region_Tokyo.png)、[バージニア北部では19モデル](aws-bedrock/screenshots/Model_access_region_N%20California.png)が使用可能です。
+  - [東京リージョンでは3モデル](screenshots/Model_access_region_Tokyo.png)、[バージニア北部では19モデル](screenshots/Model_access_region_N%20California.png)が使用可能です。
 
 - **Claude2について**:
   - 東京リージョンではClaude2が使用できません。
