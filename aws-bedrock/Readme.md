@@ -23,7 +23,7 @@
   - サンプル数と試したモデルの種類が少ないですが、Claude2が一番出力精度が良いと思いました。
   - ChatGPTのようなUI（会話履歴が残るタイプ）が簡単に作成できました。実行イメージや関連情報を共有します。
 
-## 設定とパラメータ
+## 設定と出力結果
 
 以下は、各モデルの設定とパラメータです：
 
@@ -36,3 +36,5 @@
 | Maximum length | 1000 | 1000 |  |
 | Response length |  |  | 1000 |
 | Output | [Claude v1.2](output/Claude%20v1.2.txt) | [Claude2 v1.2](output/Claude2%20v1.2.txt) | [Llama 2 Chat 70B](output/Llama%202%20Chat%2070B.txt) |
+
+**注釈**:[プロンプト](https://github.com/dx-junkyard/OpenData-Bridge-DataNorm#chatgpt%E7%94%A8%E3%83%97%E3%83%AD%E3%83%B3%E3%83%97%E3%83%88%E3%83%86%E3%83%B3%E3%83%97%E3%83%AC%E3%83%BC%E3%83%88)は全モデル共通です。
