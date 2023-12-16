@@ -1,0 +1,35 @@
+以上のように、master.csvとslave[n].csvが与えられた場合、mapping_rules.jsonを作成する。
+
+��明
+
+master.csvには、"��設��別"、"保育園名"、"所在地"という��目がある。
+slave1.csvには、"名称"、"��所"という��目がある。
+slave2.csvには、"��設名称"、"所在地"という��目がある。
+
+master.csvとslave[n].csvの������関��を������するには、��目名とデータの内容から、masterの��目とslaveの��目の������関��を������する。
+
+例えば、master.csvの"��設��別"とslave1.csvの"名称"は、同じであると思われるため、������関��の配列に��加する。
+また、master.csvの"保育園名"とslave2.csvの"��設名称"は、同じであると思われるため、������関��の配列に��加する。
+
+このように、master.csvとslave[n].csvの������関��を������し、mapping_rules.jsonを作成する。
+
+以上のように、master.csvとslave[n].csvが与えられた場合、mapping_rules.jsonを作成する。
+
+以下は、作成するmapping_rules.jsonの例である。
+
+mapping_rules.json
+---
+{
+    "保育園名":[
+        "保育園名",
+        "��設名",
+        "��設名称"
+    ],
+    "所在地":[
+        "所在地",
+        "��所",
+    ]
+}
+---
+
+このmapping_rules.jsonを使用することで、master.csvとslave[n].csvの������関��が明��になり、csvファイルの��合が可能になる。
