@@ -1,6 +1,7 @@
 # AWS Bedrockの設定とモデルのデプロイ
 
-個人アカウントでAWS Bedrockを設定し、ClaudeおよびLlama2 70BをDeployしてみました。ネットから拾ってきた情報を参考にしたら、比較的簡単に設定できました。
+個人アカウントでAWS Bedrockを設定し、ClaudeおよびLlama2 70BをDeployしてみました。  
+ネットから拾ってきた情報を参考にしたら、比較的簡単に設定できました。
 
 **参考資料**: [Amazon Bedrock使ってみた](https://www.insurtechlab.net/use_amazon_bedrock/)
 
