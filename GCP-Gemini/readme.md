@@ -3,7 +3,7 @@
 Gemini Proの推論をGoogle Colab及びGoogle AI Studioで実行しました。  
 以下情報を参考に簡単に設定できました。
 
-#### **Gemini Pro 参考資料**
+#### **Google Colab 参考資料**
 1. [Google Colab で Gemini Pro をもっと試す](https://note.com/npaka/n/n1c368639cada)  
 ⇒これを参考に[notebook](notebook/Gemini%20Pro.ipynb)を作成
 3. [python_quickstart](https://colab.research.google.com/github/google/generative-ai-docs/blob/main/site/en/tutorials/python_quickstart.ipynb#scrollTo=lEXQ3OwKIa-O)
