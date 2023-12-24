@@ -49,6 +49,10 @@
     - うまくいかない。
     ![image](https://github.com/dx-junkyard/opendata-bridge-research/assets/69392748/382d013c-9d7b-4a98-90c6-d89bde97d152)
 
+## 上記に関する補足
+- Amazon Qは日本語非対応であることから、いくつかの点でうまく文章を生成できていない可能性を確認した
+    - 2023年12月24日現在
+
 
 ### 参考
 
