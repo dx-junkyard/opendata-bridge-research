@@ -32,19 +32,22 @@
     - 2023.12.01
  
 ## Amazon Qを使用してみる
-
-![aq1](https://github.com/dx-junkyard/opendata-bridge-research/assets/69392748/faf9e1d1-46ca-42cb-beed-764c9837073b)
+- amazon qについての質問
+    - 答えてくれない
+    ![aq1](https://github.com/dx-junkyard/opendata-bridge-research/assets/69392748/faf9e1d1-46ca-42cb-beed-764c9837073b)
+- ブレインストーミングを行わせてみる
+    - 回答はしてくれる
+    ![image](https://github.com/dx-junkyard/opendata-bridge-research/assets/69392748/9d292af6-1525-4434-ab15-55992a1877f1)
 
 
 ## RAGを使用する
 - 論文データ
-![aq2](https://github.com/dx-junkyard/opendata-bridge-research/assets/69392748/6f62d6de-7b67-4b20-b4c5-e44dcc94182e)
-うまくいった。
+    - 答えてくれた 
+    ![aq2](https://github.com/dx-junkyard/opendata-bridge-research/assets/69392748/6f62d6de-7b67-4b20-b4c5-e44dcc94182e)
 
-- 北九州市のデータ：
-- 令和5年度　北九州市税務統計　税外収入
-![image](https://github.com/dx-junkyard/opendata-bridge-research/assets/69392748/382d013c-9d7b-4a98-90c6-d89bde97d152)
-うまくいかない。
+- 北九州市のデータ（令和5年度　北九州市税務統計　税外収入）：
+    - うまくいかない。
+    ![image](https://github.com/dx-junkyard/opendata-bridge-research/assets/69392748/382d013c-9d7b-4a98-90c6-d89bde97d152)
 
 
 ### 参考
