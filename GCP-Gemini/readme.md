@@ -5,10 +5,10 @@ Gemini Proの推論をGoogle Colab及びGoogle AI Studioで実行しました。
 
 ### Google Colab
 1. [Google Colab で Gemini Pro をもっと試す](https://note.com/npaka/n/n1c368639cada)  
-   ⇒ これを参考に[notebook](notebook/Gemini%20Pro.ipynb)を作成。1分/60回まではAPIは無料のようです。
-2. [Python Quickstart](https://colab.research.google.com/github/google/generative-ai-docs/blob/main/site/en/tutorials/python_quickstart.ipynb#scrollTo=lEXQ3OwKIa-O)
+   ⇒ これを参考に[notebook](notebook/Gemini%20Pro.ipynb)を作成。2024年始めまでは1分/60回まではAPIは無料のようです。詳細は[利用料金](https://blog.google/technology/ai/gemini-api-developers-cloud/)を参照。
+3. [Python Quickstart](https://colab.research.google.com/github/google/generative-ai-docs/blob/main/site/en/tutorials/python_quickstart.ipynb#scrollTo=lEXQ3OwKIa-O)
 
-3. **PDFを読み込みCSVへ変換するコード。作成途中。**
+4. **PDFを読み込みCSVへ変換するコード。作成途中。**
    ```python
    import PyPDF2
    import pdfplumber  # PDFPlumberをインポート
@@ -53,6 +53,7 @@ Gemini Proの推論をGoogle Colab及びGoogle AI Studioで実行しました。
    df.to_csv('output.csv', index=False)
 
 ### Google AI Studio(Gemini Pro)
+https://ai.google.dev/    
 以下が実行イメージ。Google AI Studioは、環境構築に手間がかからないイメージです。
 画面右側にTemperatureなど設定項目があります。  
 
