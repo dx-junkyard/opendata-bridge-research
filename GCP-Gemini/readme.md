@@ -5,8 +5,52 @@ Gemini Proの推論をGoogle Colab及びGoogle AI Studioで実行しました。
 
 ### Google Colab
 1. [Google Colab で Gemini Pro をもっと試す](https://note.com/npaka/n/n1c368639cada)  
-   ⇒これを参考に[notebook](notebook/Gemini%20Pro.ipynb)を作成。1分/60回まではAPIは無料みたいです。
+   ⇒ これを参考に[notebook](notebook/Gemini%20Pro.ipynb)を作成。1分/60回まではAPIは無料のようです。
 2. [Python Quickstart](https://colab.research.google.com/github/google/generative-ai-docs/blob/main/site/en/tutorials/python_quickstart.ipynb#scrollTo=lEXQ3OwKIa-O)
+
+3. **PDFを読み込みCSVへ変換するコード。作成途中。**
+   ```python
+   import PyPDF2
+   import pdfplumber  # PDFPlumberをインポート
+   import pandas as pd
+   import requests   # HTTPリクエスト用
+   import json       # JSON操作用
+
+   # PDFファイルを開いてテキストを抽出
+   text = ""
+   with pdfplumber.open('example.pdf') as pdf:
+       for page in pdf.pages:
+           text += page.extract_text()
+
+   # ChatGPT APIを使用してテキストを解析する関数
+   def analyze_text_with_chatgpt(text):
+       # ChatGPT APIへのリクエストを作成（URLは架空）
+       url = "https://api.openai.com/v1/chatgpt/analyze"
+       headers = {
+           "Authorization": "Bearer YOUR_API_KEY",  # 適切なAPIキーを設定
+           "Content-Type": "application/json"
+       }
+       prompt = ("""異なるフォーマットからなるcsvファイルを一つのフォーマットに統合したい... [長いプロンプトはここで省略]""")
+       payload = {
+           "text": text,
+           "instruction": prompt
+       }
+       response = requests.post(url, headers=headers, data=json.dumps(payload))
+
+       if response.status_code == 200:
+           return response.json()  # JSONレスポンスを返す
+       else:
+           raise Exception(f"ChatGPT API Error: {response.status_code}")
+
+   # ChatGPT APIを使用してテキストを解析
+   structured_data = analyze_text_with_chatgpt(text)
+
+   # 解析されたデータをDataFrameに変換
+   # 注: この部分は返されたデータに依存するため、適宜調整が必要
+   df = pd.DataFrame(structured_data)
+
+   # DataFrameをCSVファイルとして保存
+   df.to_csv('output.csv', index=False)
 
 ### Google AI Studio(Gemini Pro)
 以下が実行イメージ。Google AI Studioは、環境構築に手間がかからないイメージです。
