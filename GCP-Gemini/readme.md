@@ -59,7 +59,7 @@ Gemini Proの推論をGoogle Colab及びGoogle AI Studioで実行しました。
    ![Google AI Studio 実行イメージ](https://github.com/dx-junkyard/opendata-bridge-research/assets/115245862/55ce7c23-d020-47a1-9c03-c0fe5a482c9a)
 
 ### Google AI Studio(Gemini Pro Vision)
-以下が実行イメージ。試しにGemini Pro VisionでAED一覧のPDFの画像データを読み込ませてみた。
+Google AI Studioでのファイル読み込みの方法がわからなかったため、試しにGemini Pro VisionでAED一覧のPDFの画像データを読み込ませてみた。
 ところどころ間違えがある。
 
 　　![image](https://github.com/dx-junkyard/opendata-bridge-research/assets/115245862/266e9af9-bf2d-47f6-9a38-fc263737b950)
