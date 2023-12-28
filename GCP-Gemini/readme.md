@@ -63,3 +63,5 @@ Gemini Proの推論をGoogle Colab及びGoogle AI Studioで実行しました。
 ところどころ間違えがある。
 
 　　![image](https://github.com/dx-junkyard/opendata-bridge-research/assets/115245862/266e9af9-bf2d-47f6-9a38-fc263737b950)
+  　![image](https://github.com/dx-junkyard/opendata-bridge-research/assets/115245862/659f77bf-523f-4506-9812-a75a59d2a34a)
+
