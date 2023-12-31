@@ -8,7 +8,7 @@ GeminiはGoogleが2023年12月に発表した大規模言語モデル(LLM)です
 
 現在使用可能なのは、**Gemini Pro**と**Gemini Nano**です。ただし、Gemini Nanoはスマートフォン上で動作するLLMです。
 
-詳細は[Introducing Gemini: our largest and most capable AI model](https://blog.google/technology/ai/google-gemini-ai/#performance)をご覧ください。
+詳細は[Introducing Gemini: our largest and most capable AI model](https://blog.google/technology/ai/google-gemini-ai/#introducing-gemini)をご覧ください。
 
 ## 設定
 Gemini Proの推論をGoogle Colab及びGoogle AI Studioで実行しました。両方共に設定は簡単です。インターネット上の情報などを見ると、Gemini ProはGPT-3.5と同様の能力を持つとされています。
