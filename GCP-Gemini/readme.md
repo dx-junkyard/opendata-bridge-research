@@ -14,7 +14,7 @@ https://ai.google.dev/
 以下が実行イメージ。Google AI Studioは、環境構築に手間がかからないイメージです。
 画面右側にTemperatureなど設定項目があります。  
 
-   ![Google AI Studio 実行イメージ](https://github.com/dx-junkyard/opendata-bridge-research/assets/115245862/55ce7c23-d020-47a1-9c03-c0fe5a482c9a)
+   ![Google AI Studio 実行イメージ](data/gemini_pro/JGLUE.png)
 
 ### Google AI Studio(Gemini Pro Vision)
 Google AI Studioでのファイル読み込みの機能が見当たらなかったので、試しにGemini Pro VisionでAED一覧のPDFの画像データを読み込ませてみた。
