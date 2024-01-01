@@ -44,19 +44,21 @@ Gemini Proは、Google Colab及びGoogle AI Studioで利用可能です。
 以下が実行イメージです。Google AI Studioは、notebookよりさらに環境構築に手間がかからないイメージです。  
 
 #### Gemini Proによるテキスト読み込み
-[jcommonsenseqa](https://github.com/yahoojapan/JGLUE/blob/c35b43c73056f6898837de0dcc5ba11cc7dc3ecc/datasets/jcommonsenseqa-v1.1/valid-v1.1.json#L125C6-L125C6)と[elyza/ELYZA-tasks-100](https://huggingface.co/datasets/elyza/ELYZA-tasks-100)を読み込み。質問に対して的確に答えています。
+[jcommonsenseqa](https://github.com/yahoojapan/JGLUE/blob/c35b43c73056f6898837de0dcc5ba11cc7dc3ecc/datasets/jcommonsenseqa-v1.1/valid-v1.1.json#L125C6-L125C6)と[elyza/ELYZA-tasks-100](https://huggingface.co/datasets/elyza/ELYZA-tasks-100)を読み込み。質問に対して的確に答えています。  
+
 ![Google AI Studio 実行イメージ](data/gemini_pro/JGLUE.png)
 
 #### Gemini Pro Visonによる画像読み込み
-フリー素材の写真を読み込み。木があることはもちろん雪が降っていることも的確に説明しています。
+フリー素材の写真を読み込み。木があることはもちろん雪が降っていることも的確に説明しています。  
+
 ![Google AI Studio 実行イメージ](data/gemini_pro_vision/tree.png)
 
 > [!TIP]
 > 画面右側のmodelによりGemini ProとGemini Pro Vison の切り替えができます
 
-
+## データ変換
 ### Google AI Studio (Gemini Pro Vision)
-Google AI Studioでのファイル読み込みの機能が見当たらなかったので、試しにGemini Pro VisionでAED一覧のPDFの画像データを読み込ませてみました。ところどころ間違えがあります。
+Gemini Pro VisionでAED一覧のPDFの画像データを読み込ませてみました。ところどころ間違えがあります。
 
 ![image](https://github.com/dx-junkyard/opendata-bridge-research/assets/115245862/266e9af9-bf2d-47f6-9a38-fc263737b950)
 
