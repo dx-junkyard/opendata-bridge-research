@@ -48,24 +48,28 @@ Gemini Proは、Google Colab及びGoogle AI Studioで利用可能です。
 
 ![Google AI Studio 実行イメージ](data/gemini_pro/JGLUE.png)
 
-#### Gemini Pro Visonによる画像読み込み(1)
-フリー素材の写真を読み込み。木があることはもちろん雪が降っていることも的確に説明しています。  
+### Gemini Pro Visionによる画像読み込み
+
+#### 画像読み込み(1)：自然の風景
+
+Gemini Pro Visionは、フリー素材の写真を読み込んで、木があることや雪が降っていることを的確に説明しました。
 
 ![Google AI Studio 実行イメージ](data/gemini_pro_vision/tree.png)
 
-#### Gemini Pro Visonによる画像読み込み(2)
-Gemini Pro Visionで[AED設置施設一覧(門司区)](https://www.city.kitakyushu.lg.jp/files/001024483.pdf)のAED一覧のPDFの画像データを読み込ませてみました。  
-テーブルがずれていたり、数値や文字の読み込み間違えがあります。
+#### 画像読み込み(2)：AED設置施設一覧の解析
 
-![image](https://github.com/dx-junkyard/opendata-bridge-research/assets/115245862/266e9af9-bf2d-47f6-9a38-fc263737b950)
+Gemini Pro Visionを使用して、[AED設置施設一覧(門司区)](https://www.city.kitakyushu.lg.jp/files/001024483.pdf)のPDFから画像データを読み込みました。テーブルのズレや数値の読み間違いがあるものの、重要な情報の抽出に成功しています。
+
+![AED設置施設一覧の読み込み結果](https://github.com/dx-junkyard/opendata-bridge-research/assets/115245862/266e9af9-bf2d-47f6-9a38-fc263737b950)
 
 読み込んだテーブルデータ
 
-![image](https://github.com/dx-junkyard/opendata-bridge-research/assets/115245862/659f77bf-523f-4506-9812-a75a59d2a34a)
-
+![テーブルデータの画像](https://github.com/dx-junkyard/opendata-bridge-research/assets/115245862/659f77bf-523f-4506-9812-a75a59d2a34a)
 
 > [!TIP]
-> 画面右側のmodelによりGemini ProとGemini Pro Vison の切り替えができます
+> Gemini ProとGemini Pro Visionのモデルは、画面右側のモデル選択で切り替え可能です。
+
+
 
 ## データ抽出
 [北九州市公共施設白書（令和４年度状況）](https://www.city.kitakyushu.lg.jp/files/001058942.pdf)のデータを正しく抽出できるのかを確認。  
@@ -74,21 +78,60 @@ Gemini Pro Visionで[AED設置施設一覧(門司区)](https://www.city.kitakyus
 > **Gemini Pro Vision**はデータのスクリーンショットをプロンプトとして与えています。  
 > データ全てのスクリーンショットを1度で撮れないため、読み込む行列を絞っている形になっています。
 
-### 市営住宅
-#### Google AI Studio (Gemini Pro)
+### 市営住宅に関するデータ抽出
+
+#### Google AI Studio (Gemini Pro) での結果
+
+新松崎団地の区名を聞いたところ、適切に「門司港」と回答。
+
+> [!NOTE]
+> 以下の画像は、Gemini Proによる回答のスクリーンショットです。テーブルデータに関して、ある程度内容を理解していることがわかります。
+
+![市営住宅_Gemini Proの分析結果](data/gemini_pro/text_municipal_housing.png)
+
+
 
 #### Google AI Studio (Gemini Pro Vision)
+新松崎団地の区名を聞いたところ、適切に「門司港」と回答。
 
-### 市民センター
+> [!NOTE]
+> 以下の画像は、Gemini Pro Visionによる回答のスクリーンショットです。読み込むテーブルの行列の数を増やすと、新松崎を新松戸と間違えたりすることからテキストに比べると精度が落ちます。
+
+![市営住宅_Gemini Pro Vision](data/gemini_pro_vision/vision_municipal_housing.png)
+
+### 市民センターに関するデータ抽出
 #### Google AI Studio (Gemini Pro)
+湯川市民センターの町名を聞いたところ、適切に「湯川」と回答。
+
+> [!NOTE]
+> 以下の画像は、Gemini Proによる回答のスクリーンショットです。テーブルデータに関して、ある程度内容を理解していることがわかります。
+
+![市民センター_Gemini Proの分析結果](data/gemini_pro/text_civic_center.png)
+#### Google AI Studio (Gemini Pro Vision)
+湯川市民センターの町名を聞いたところ、適切に「湯川」と回答。
+
+> [!NOTE]
+> 以下の画像は、Gemini Pro Visionによる回答のスクリーンショットです。湯川という文字が読み込みやすいためか、読み込むテーブルの行列の数を増やしても、ただしくテーブルの読み込みができました。
+
+![市民センター_Gemini Proの分析結果](data/gemini_pro_vision/vision_civic_center.png)
+
+
+### 環境施設に関するデータ抽出
+#### Google AI Studio (Gemini Pro)
+北九州市エコタウンセンターの所管課を聞いたところ、適切に「環境イノベーション支援課」と回答。
+
+> [!NOTE]
+> 以下の画像は、Gemini Proによる回答のスクリーンショットです。テーブルデータに関して、ある程度内容を理解していることがわかります。
+
+![環境施設_Gemini Proの分析結果](data/gemini_pro/text_env_factory.png)
 
 #### Google AI Studio (Gemini Pro Vision)
+北九州市エコタウンセンターの所管課を聞いたところ、誤って「環境局環境政策課」と回答。
 
+> [!NOTE]
+> 以下の画像は、Gemini Pro Visionによる回答のスクリーンショットです。所管課の表示がセル内に収まっておらず、見切れていることが原因で読み込みが失敗していると考えられます
 
-### 環境施設
-#### Google AI Studio (Gemini Pro)
-
-#### Google AI Studio (Gemini Pro Vision)
+![環境施設_Gemini Proの分析結果](data/gemini_pro_vision/vision_env_factory.png)
 
 ## その他参考資料
 - [Build with Gemini](https://ai.google.dev/)
