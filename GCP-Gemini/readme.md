@@ -54,7 +54,7 @@ Gemini Proは、Google Colab及びGoogle AI Studioで利用可能です。
 ![Google AI Studio 実行イメージ](data/gemini_pro_vision/tree.png)
 
 #### Gemini Pro Visonによる画像読み込み(2)
-Gemini Pro Visionで[北九州市公共施設白書（令和４年度状況）](https://www.city.kitakyushu.lg.jp/files/001058942.pdf)のAED一覧のPDFの画像データを読み込ませてみました。  
+Gemini Pro Visionで[AED設置施設一覧(門司区)](https://www.city.kitakyushu.lg.jp/files/001024483.pdf)のAED一覧のPDFの画像データを読み込ませてみました。  
 テーブルがずれていたり、数値や文字の読み込み間違えがあります。
 
 ![image](https://github.com/dx-junkyard/opendata-bridge-research/assets/115245862/266e9af9-bf2d-47f6-9a38-fc263737b950)
