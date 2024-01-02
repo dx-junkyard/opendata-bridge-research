@@ -48,23 +48,47 @@ Gemini Proは、Google Colab及びGoogle AI Studioで利用可能です。
 
 ![Google AI Studio 実行イメージ](data/gemini_pro/JGLUE.png)
 
-#### Gemini Pro Visonによる画像読み込み
+#### Gemini Pro Visonによる画像読み込み(1)
 フリー素材の写真を読み込み。木があることはもちろん雪が降っていることも的確に説明しています。  
 
 ![Google AI Studio 実行イメージ](data/gemini_pro_vision/tree.png)
 
-> [!TIP]
-> 画面右側のmodelによりGemini ProとGemini Pro Vison の切り替えができます
-
-## データ変換
-### Google AI Studio (Gemini Pro Vision)
-Gemini Pro VisionでAED一覧のPDFの画像データを読み込ませてみました。ところどころ間違えがあります。
+#### Gemini Pro Visonによる画像読み込み(2)
+Gemini Pro Visionで[北九州市公共施設白書（令和４年度状況）](https://www.city.kitakyushu.lg.jp/files/001058942.pdf)のAED一覧のPDFの画像データを読み込ませてみました。  
+テーブルがずれていたり、数値や文字の読み込み間違えがあります。
 
 ![image](https://github.com/dx-junkyard/opendata-bridge-research/assets/115245862/266e9af9-bf2d-47f6-9a38-fc263737b950)
 
 読み込んだテーブルデータ
 
 ![image](https://github.com/dx-junkyard/opendata-bridge-research/assets/115245862/659f77bf-523f-4506-9812-a75a59d2a34a)
+
+
+> [!TIP]
+> 画面右側のmodelによりGemini ProとGemini Pro Vison の切り替えができます
+
+## データ抽出
+[北九州市公共施設白書（令和４年度状況）](https://www.city.kitakyushu.lg.jp/files/001058942.pdf)のデータを正しく抽出できるのかを確認。  
+データをテキストデータとして**Gemini Pro**、画像データとして**Gemini Pro Vision**へプロンプトとして与えた。
+> [!NOTE]
+> **Gemini Pro Vision**はデータのスクリーンショットをプロンプトとして与えています。  
+> データ全てのスクリーンショットを1度で撮れないため、読み込む行列を絞っている形になっています。
+
+### 市営住宅
+#### Google AI Studio (Gemini Pro)
+
+#### Google AI Studio (Gemini Pro Vision)
+
+### 市民センター
+#### Google AI Studio (Gemini Pro)
+
+#### Google AI Studio (Gemini Pro Vision)
+
+
+### 環境施設
+#### Google AI Studio (Gemini Pro)
+
+#### Google AI Studio (Gemini Pro Vision)
 
 ## その他参考資料
 - [Build with Gemini](https://ai.google.dev/)
