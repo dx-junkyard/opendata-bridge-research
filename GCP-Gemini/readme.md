@@ -58,13 +58,13 @@ Gemini Pro Visionは、フリー素材の写真を読み込んで、木がある
 
 #### 画像読み込み(2)：AED設置施設一覧の解析
 
-Gemini Pro Visionを使用して、[AED設置施設一覧(門司区)](https://www.city.kitakyushu.lg.jp/files/001024483.pdf)のPDFから画像データを読み込みました。テーブルのズレや数値の読み間違いがあるものの、重要な情報の抽出に成功しています。
+Gemini Pro Visionを使用して、[AED設置施設一覧(門司区)](https://www.city.kitakyushu.lg.jp/files/001024483.pdf)のPDFから画像データを読み込みました。テーブルのズレや数値の読み間違いがあるものの、情報の抽出に成功しています。
 
-![AED設置施設一覧の読み込み結果](https://github.com/dx-junkyard/opendata-bridge-research/assets/115245862/266e9af9-bf2d-47f6-9a38-fc263737b950)
+![AED設置施設一覧の読み込み結果](data/gemini_pro_vision/vision_aed.png)
 
 読み込んだテーブルデータ
 
-![テーブルデータの画像](https://github.com/dx-junkyard/opendata-bridge-research/assets/115245862/659f77bf-523f-4506-9812-a75a59d2a34a)
+![テーブルデータの画像](data/gemini_pro_vision/aed_prompt.jpg)
 
 > [!TIP]
 > Gemini ProとGemini Pro Visionのモデルは、画面右側のモデル選択で切り替え可能です。
