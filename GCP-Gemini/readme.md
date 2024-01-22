@@ -133,6 +133,11 @@ Gemini Pro Visionを使用して、[AED設置施設一覧(門司区)](https://ww
 
 ![環境施設_Gemini Proの分析結果](data/gemini_pro_vision/vision_env_factory.png)
 
+### 東京都統計年鑑、昭和53年　データの抽出
+低画質、文字列も低品質のPDFデータの抽出を実施。詳細は以下issueを確認。  
+[東京都統計年鑑、昭和53年](https://www.toukei.metro.tokyo.lg.jp/tnenkan/1978/tn78qa0020.pdf)  
+[PDFから表を抽出する方法に関する調査](https://github.com/dx-junkyard/opendata-bridge-research/issues/3#issuecomment-1902482624)
+
 ## その他参考資料
 - [Build with Gemini](https://ai.google.dev/)
 - [It’s time for developers and enterprises to build with Gemini Pro](https://blog.google/technology/ai/gemini-api-developers-cloud/)
