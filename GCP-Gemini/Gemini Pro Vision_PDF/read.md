@@ -1,10 +1,13 @@
 **Gemini Pro Visionでの実行結果**
 
-以下PDFをGemini Pro Visionで読み込み
+以下PDFをGemini Pro Visionで読み込み。[Google AI Studio](https://makersuite.google.com/)からGemini Visionを利用。  
+
 - [東京都統計年鑑 昭和53年](https://www.toukei.metro.tokyo.lg.jp/tnenkan/1978/tn78qyti0510b.htm)
   - 低画質、文字列も低品質
-以下issueでやり取りした内容を登録
-https://github.com/dx-junkyard/opendata-bridge-research/issues/3
+
+> [!NOTE]
+> 以下issueのGemini Pro Visionでやり取りした内容をこちらのreadmeに登録  
+> https://github.com/dx-junkyard/opendata-bridge-research/issues/3
 
 > [!NOTE]
 > 工夫した点や気づき事項は以下です。
@@ -20,8 +23,10 @@ https://github.com/dx-junkyard/opendata-bridge-research/issues/3
 
 プロンプト  
 
-`この画像に示す1962年から1967年までの区部毎の地域別人口を把握し、マークダウン形式で出力します。
-なお横方向は1962年から1967年までの年、縦方向は区の数とし12個を出力ください。`  
+```
+この画像に示す1962年から1967年までの区部毎の地域別人口を把握し、マークダウン形式で出力します。
+なお横方向は1962年から1967年までの年、縦方向は区の数とし12個を出力ください。
+```
 
 ![区部_プロンプト2](https://github.com/dx-junkyard/opendata-bridge-research/blob/main/GCP-Gemini/data/gemini_pro_vision/vision_popu_propmt3.png?raw=true)
 
