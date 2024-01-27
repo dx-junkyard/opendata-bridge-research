@@ -3,7 +3,6 @@
 以下PDFをGemini Pro Visionで読み込み
 - [東京都統計年鑑 昭和53年](https://www.toukei.metro.tokyo.lg.jp/tnenkan/1978/tn78qyti0510b.htm)
   - 低画質、文字列も低品質
-
 以下issueでやり取りした内容を登録
 https://github.com/dx-junkyard/opendata-bridge-research/issues/3
 
@@ -15,11 +14,15 @@ https://github.com/dx-junkyard/opendata-bridge-research/issues/3
 >   - プロンプト1に引き続き、プロンプト2を入力したところ、プロンプト1で出力したリストを自動でプロンプト2へ反映して、出力しました。
 >   - 影響があるかわからないが、パラメータをTemperature: 0.1、Top P: 1とし、出力の一貫性を求めつつ、それでいてあらゆる可能性を排除しないようにしました。Temperatureなどのパラメータはもっと色々試して、適正値を探す必要があるかもしれません。[TemperatureとTop Pについて](https://techblog.a-tm.co.jp/entry/2023/04/24/181232)
 
-■抽出結果（５枚目の区部のみが対象）
-[区部_その1]
-プロンプト
+■抽出結果（５枚目の区部のみが対象）  
+
+[区部_その1]  
+
+プロンプト  
+
 `この画像に示す1962年から1967年までの区部毎の地域別人口を把握し、マークダウン形式で出力します。
-なお横方向は1962年から1967年までの年、縦方向は区の数とし12個を出力ください。`
+なお横方向は1962年から1967年までの年、縦方向は区の数とし12個を出力ください。`  
+
 ![区部_プロンプト2](https://github.com/dx-junkyard/opendata-bridge-research/blob/main/GCP-Gemini/data/gemini_pro_vision/vision_popu_propmt3.png?raw=true)
 
 出力結果
@@ -47,13 +50,16 @@ https://github.com/dx-junkyard/opendata-bridge-research/issues/3
 
 
 
-[区部_その2]
-プロンプト
+[区部_その2]  
+
+プロンプト　　
+
 ```
 この画像に示す1962年から1967年までの区部毎の地域別人口を把握し、マークダウン形式で出力します。
 なお横方向は1962年から1967年までの年、縦方向は区の数とし12個を出力ください。
 最後の行は境界未定地のため、人口が"-"となっています。
 ```
+
 ![市部_プロンプト](https://github.com/dx-junkyard/opendata-bridge-research/blob/main/GCP-Gemini/data/gemini_pro_vision/vision_popu_propmt4.png?raw=true)
 
 出力結果
